@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+table {
+    width: 100%;
+    max-width: 51rem;
+}
+
+td, th {padding: 0.5rem .5rem; text-align: center; vertical-align: center;}
+
+th {
+    font-weight: normal;
+    border-top: thin dotted #ccc;
+    min-width: 10rem;
+}
+
+th:first-child{
+    min-width: 1rem;
+}
+  
+td {
+    font-size: 0.8rem;
+    font-weight: bold;
+    line-height: 1.4;
+    border-radius: 0.2rem;
+}
+
+.clase-libre {background-color: lightgrey;}
+.clase-paradigmas {background-color: #FF8A65;}
+.clase {background-color: #9CCC65;}
+.texto {border: 1px solid black; text-align: left;}
